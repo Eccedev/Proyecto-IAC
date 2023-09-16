@@ -1,0 +1,110 @@
+body {
+    display: block;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-size: 1.2rem;
+  }
+  .main-section {
+    color: #000;
+    background-color: #f5f5f5;
+    padding: 1rem;
+  }
+  
+  /* /// INICIO control media /// */
+    @media (max-width: 768px) {
+    body {
+      display: grid;
+    }  
+    body #navbar {
+    position: static;  
+    text-decoration: none;
+    width: 95vw;
+    min-width: 300px;
+    border: 1px solid #000;
+    text-align: center;  
+  } 
+    body .nav-link {
+    display: block;  
+    text-decoration: none;
+    color: black;
+    text-align: center;
+  }
+    #main-doc {
+    position: relative;  
+    text-decoration: none;
+    width: 95vw;  
+    height: 0%;
+    top: 40px;
+    right: 21rem;
+    left: rem;
+    text-align: center;  
+  }
+  } 
+  /* /// FIN control media /// */
+  
+  .nav-link:hover {
+    color: #000000;
+    background-color: #dbd9d9;
+  }
+  
+  header {
+    font-size: 2.5rem;
+  }
+
+  ul .miembros {
+    list-style: none;
+  }
+  
+  #navbar {
+    position: fixed;
+    text-decoration: none;
+    width: 10vw;
+    min-width: 320px;
+    left: 0rem;
+    border-right: 1px solid #000;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .nav-link {
+    display: block;  
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-size: 1.5rem;
+    border-bottom: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  nav header {
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+  }
+  
+  #main-doc {
+    display: block;
+    margin-left: 330px;
+  }
+  
+  .botones {
+    width: 180px;
+    height: 50px;
+  }
+
+  .botones .boton {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 0.5rem;
+    background: #cecdcd; 
+    align-items: baseline; 
+    margin: 0.5rem;
+  }
+
+  #boton:hover {
+    color: #000000;
+    background-color: #fff;
+  }
